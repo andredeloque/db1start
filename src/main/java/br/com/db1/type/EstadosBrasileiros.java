@@ -1,7 +1,9 @@
-package br.com.db1;
+package br.com.db1.type;
 
-public enum EstadosDoBrasil {
-	AC("Acre",1),
+import java.util.List;
+
+public enum EstadosBrasileiros {
+	AC("Acre"),
 	AL("Alagoas"),
 	AP("Amapa"),
 	AM("Amazonas"),
@@ -28,24 +30,10 @@ public enum EstadosDoBrasil {
 	SE("Sergipe"),
 	TO("Tocantins");
 	
-private String nome;
-private int numero;
-
-private EstadosDoBrasil (String nome, int numero){
-	this.nome = nome;
-	this.numero = numero;
-}
-private EstadosDoBrasil (String nome){
-	
-}
-private EstadosDoBrasil (int numero){
-	
-}
-public String nome(){
-	for (String valor : numero){
-		System.out.println(valor);
-	
-	return nome;
-}
-}
+	String nomeDoEstado(){
+		return nomeDoEstado;
+	}
+	public static List<EstadosDoBrasil> getEstadosDoSul(){
+		uf.add(EstadosDoBrasil.PR);
+	}
 }

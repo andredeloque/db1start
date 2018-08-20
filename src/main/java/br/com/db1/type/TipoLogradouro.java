@@ -3,7 +3,7 @@ package br.com.db1.type;
 public enum TipoLogradouro {
 
 	RUA("Rua", "R"), 
-	FAZENDA("Fazenda", "F"),
+	FAZENDA("Fazenda", "Fz"),
 	PRACA("Praça","Pc"),
 	AVENIDA("Avenida", "Av");
 	

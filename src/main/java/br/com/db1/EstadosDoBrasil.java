@@ -42,8 +42,7 @@ private EstadosDoBrasil (int numero){
 	
 }
 public String nome(){
-	for (String valor : numero){
-		System.out.println(valor);
+	
 	
 	return nome;
 }
